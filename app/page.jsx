@@ -10,7 +10,7 @@ export default function Page() {
     }, [])
 
     return (
-        <div className={`${mode && 'dark'} dark:bg-slate-800 lg:h-svh`}>
+        <div className={`${mode && 'dark'} dark:bg-slate-800`}>
             <nav className="bg-slate-100 dark:bg-gray-900 pb-28">
                 <div className="container py-5 flex justify-between items-center flex-wrap">
                     <div>
